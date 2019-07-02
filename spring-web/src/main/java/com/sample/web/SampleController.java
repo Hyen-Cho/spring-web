@@ -12,7 +12,13 @@ public class SampleController {
 		return "sample/main";
 	}
 	
+
 	public String master() {
 		return "master";
+	}
+
+	public String bugfix() {
+		return "bugfix";
+
 	}
 }
